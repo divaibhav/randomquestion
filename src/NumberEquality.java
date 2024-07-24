@@ -9,9 +9,9 @@ public class NumberEquality {
         int number2 = scanner.nextInt();
         System.out.println("Enter number 3");
         int number3 = scanner.nextInt();
-        int difference = 0;
+        int difference;
         if(number1 == number2 && number1 != number3){
-            int temp = 0;// for random purpose
+            //int temp = 0;// for random purpose
             if( number3 < number1){
                 difference = number1 - number3; //80 - 30
                 number3 += difference;//50; 30 + 50
